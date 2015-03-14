@@ -1,0 +1,33 @@
+body{
+	background-image: url(../imgs/back.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+
+	background-position: 0px -60px;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.topRow{
+	margin-top: 10%;
+	margin-bottom: 28%;
+}
+.date_text{
+	font-family: 'Oswald', sans-serif;
+}
+
+
+/*BOTTOM PART */
+.bottom_wrapper{
+	background-color: rgba(0,0,0,0.7);
+	width: 100%;
+}
+.section_title{
+	font-family: 'Allerta', sans-serif;
+}
+.fontWhite{
+	color: white;
+}

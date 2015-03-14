@@ -1,0 +1,32 @@
+.app_wrapper{
+	border:solid white 3px;
+	border-radius: 5px;
+}
+.app_inner{
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.appRow{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.control-label{
+	font-size: 16px;
+	color: white;
+}
+.form-control{
+	background-color: rgba(0,0,0,0);
+	border-color: white;
+	color: white;
+}
+.apply_btn{
+	color: white;
+	border:solid 2px white;
+	padding: 10px 10px;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0);
+	border-radius: 5px;
+}

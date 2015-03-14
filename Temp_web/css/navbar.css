@@ -1,0 +1,17 @@
+#navbar_logo{
+	height: 100%;
+}
+#navbar_menu{
+	background-color: rgba(0,0,0,0);
+	border-style: none;
+	height: 120px;
+}
+.container-fluid{
+	height: 100%;
+}
+.navbar-header{
+	height: 100%;
+}
+.navbar-brand{
+	height: 100%;
+}

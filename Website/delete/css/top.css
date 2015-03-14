@@ -1,0 +1,26 @@
+.top_wrapper{
+	width: 100%;
+	background-image: url(../imgs/web2.jpg);
+	background-size: cover;
+}
+.topRow{
+	margin-top: 35%;
+	margin-bottom: 40%;
+}
+.intro_text{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+.getStarted_btn{
+	padding: 15px 20px;
+	color: white;
+	border:white solid 2px;
+	border-radius: 4px;
+	text-decoration: none;
+	font-size: 18px;
+
+}
+.getStarted_btn:hover{
+	color: white;
+	text-decoration: none;
+}

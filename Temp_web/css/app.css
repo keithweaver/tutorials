@@ -1,0 +1,29 @@
+.application_wrapper{
+	
+	border:white solid 3px;
+	border-radius: 5px;
+	margin-bottom: 100px;
+}
+.app_inner{
+	width: 95%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.control-label{
+	font-family: 'Allerta', sans-serif;
+
+}
+.form-control{
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+.apply_btn{
+	padding: 7px 10px;
+	border:solid white 2px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0);
+	font-size: 16px;
+	color: white;
+}

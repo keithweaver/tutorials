@@ -1,0 +1,13 @@
+.speaker_img{
+	width: 85%;
+	border-radius: 50%;
+}
+.speaker_text{
+	font-family: 'Allerta', sans-serif;
+	font-size: 16px;
+	color: white;
+}
+.speakerContentRow{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}

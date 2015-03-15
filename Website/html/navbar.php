@@ -8,18 +8,13 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img src="./imgs/"
+        <img src="./imgs/logo_horizontal.jpg" class="logo">
       </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+     
+      <ul class="nav navbar-nav navbar-right" id="navbar-r" style="margin-top:10px;">
+        <li class="navbar_item"><a href="./series" class="navbar_item" style="color:white;">Series</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

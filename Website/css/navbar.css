@@ -1,0 +1,26 @@
+.logo{
+	height: 100%;
+}
+.navbar{
+	background-color: rgba(0,0,0,0);
+	border-style: none;
+	height: 120px;
+	margin-bottom: 5px;
+}
+.container-fluid{
+	height: 100%;
+}
+.navbar-header{
+	height: 100%;
+}
+.navbar-brand{
+	height: 100%;
+}
+.navbar_item{
+	color: white;
+	font-size: 18px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+#navbar-r{
+	margin-top: 30px;
+}

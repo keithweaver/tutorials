@@ -1,7 +1,7 @@
 .outter_wrapper{
 	width: 100%;
 	background-color: #2e2e2e;
-	margin-top: 30px;
+	
 }
 .video_title{
 	color: white;
@@ -19,9 +19,21 @@
 .video_label{
 	color: white;
 	padding-top: 10px;
+	text-decoration: none;
 
 }
 .video_label:hover{
 	color: white;
 	text-decoration: none;
+}
+.recent_img{
+	width: 100%;
+}
+.series_text{
+	font-size: 14px;
+	color: white;
+}
+.series_text:hover{
+	text-decoration: none;
+	color: white;
 }

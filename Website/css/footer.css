@@ -1,0 +1,22 @@
+.footer_item{
+	color: white;
+	text-decoration: none;
+}
+.footer_item:hover{
+	text-decoration: none;
+	color: white;
+}
+.footer_wrapper{
+	background-color: #2e2e2e;
+}
+.footerRow{
+	
+	margin-bottom: 100px;
+}
+.copyright{
+	color: white;
+	font-size: 16px;
+}
+.footerRowTop{
+	margin-top: 60px;
+}

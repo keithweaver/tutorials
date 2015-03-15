@@ -10,3 +10,14 @@
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
+.recent_img{
+	width: 100%;
+}
+.series_text{
+	font-size: 14px;
+	color: white;
+}
+.series_text:hover{
+	text-decoration: none;
+	color: white;
+}

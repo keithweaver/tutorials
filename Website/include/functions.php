@@ -30,7 +30,7 @@
 			echo '<a href="./video?v=' . $id .'">';
 		}
 			echo '<div class="col-sm-4 text-center" style="margin-top:30px;">';
-				echo '<img src="./imgs/' . $img . '" class="recent_img"/>';
+				echo '<img src="./imgs/' . $img . '" class="recent_img" alt="' . $label . '"/>';
 				echo '<p class="series_text">' . $label . '</p>';
 			echo '</div>';
 		echo '</a>';
@@ -38,7 +38,7 @@
 	function printVideo($id, $img, $name){
 		echo '<div class="col-sm-3 videoRow text-center" style="margin-top:30px;">';
 			echo '<a href="series?id=' . $id . '">';
-				echo '<img src="./imgs/' . $img . '" class="recent_img"/>';
+				echo '<img src="./imgs/' . $img . '" class="recent_img" alt="' . $label . '"/>';
 				echo '<p class="series_text" style="text-decoration:none;">' . $name .'</p>';
 			echo '</a>';
 		echo '</div>';

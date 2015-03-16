@@ -5,6 +5,12 @@
 ?>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="description" content="Free Coding Tutorials">
+<meta name="keywords" content="HTML,CSS,JavaScript,PHP,Computer Science, Web">
+<meta name="author" content="Free Coding Tutorials">
+<link rel="icon" href="./imgs/url_icon.jpg">
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
@@ -25,10 +31,12 @@
 		margin-bottom: 20%;
 	}
 </style>
+<title>Series | Free Coding Tutorials</title>
+
 </head>
 <body>
 <?php
-	include_once('./analyticstracking.php');
+	include_once('./include/analyticstracking.php');
 	include_once('./html/navbar.php');
 ?>
 <div class="outter_wrapper">

@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-        <img src="./imgs/logo_horizontal.jpg" class="logo">
+        <img src="./imgs/logo_horizontal.jpg" class="logo" alt="Free Coding Tutorials Logo">
       </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

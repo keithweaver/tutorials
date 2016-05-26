@@ -211,3 +211,11 @@ sudo ln -s /usr/share/phpmyadmin
 ```
 
 Change `example.com` to your domain.
+
+
+### Add Curl
+
+```
+apt-get install php5-curl
+service apache2 restart
+```

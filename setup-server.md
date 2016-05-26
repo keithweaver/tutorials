@@ -115,3 +115,99 @@ sudo chown www-data /var/log/php
 ```
 service apache2 reload
 ```
+
+#### Install Git
+
+Change back to the root directory.
+```
+cd ~/../
+```
+
+And install it.
+```
+apt-get install git-all
+```
+
+#### Clone the repo
+
+Go to Github, BitBucket, etc. and create a repo. Find the ssh link.
+
+```
+cd ~/.ssh
+ssh-keygen
+```
+
+It will return something like this:
+```
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/schacon/.ssh/id_rsa):
+Created directory '/home/schacon/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/schacon/.ssh/id_rsa.
+Your public key has been saved in /home/schacon/.ssh/id_rsa.pub.
+The key fingerprint is:
+d0:82:24:8e:d7:f1:bb:9b:33:53:96:93:49:da:9b:e3 schacon@mylaptop.local
+```
+
+Run the following command to get the key and you will be adding it to the repo.
+```
+cat ~/.ssh/id_rsa.pub
+```
+
+It will return this:
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
+GPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5QVkbPppSwg0cda3
+Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XA
+t3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuUFljQJKprrX88XypNDvjYNby6vw/Pb0rwert/En
+mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
+NrRFi9wrf+M7Q== schacon@mylaptop.local
+```
+
+Copy and paste this on the repo under settings.
+
+The link would look something like this:
+```
+git@github.com:kweaver00/tutorials.git
+```
+
+On the server, replace `example.com` with your domain:
+```
+cd ~/../var/www/html/example.com/
+```
+
+Now clone it:
+```
+git clone git@github.com:kweaver00/tutorials.git
+```
+
+Delete the existing `public_html` folder. Run:
+```
+rm -rf public_html
+ls
+mv ./tutorials ./public_html
+```
+
+`tutorials` was one of the folders listed other than `logs`.
+
+
+#### Adding PHPMyAdmin
+
+Install PHPMyAdmin
+```
+apt-get install phpmyadmin
+```
+
+Open the folder (git repo), the `public_html`:
+```
+cd ./public_html
+```
+
+Link to PHPMyAdmin:
+```
+cd /var/www/example.com/public_html
+sudo ln -s /usr/share/phpmyadmin
+```
+
+Change `example.com` to your domain.

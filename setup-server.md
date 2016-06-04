@@ -68,7 +68,7 @@ The contents will be as follows:
      DocumentRoot /var/www/html/example.com/public_html/
      ErrorLog /var/www/html/example.com/logs/error.log 
      CustomLog /var/www/html/example.com/logs/access.log combined
-     <Directory /path/to/public/website/>
+     <Directory /var/www/html/example.com/public_html/>
         Require all granted
      </Directory>
 </VirtualHost>
@@ -218,4 +218,48 @@ Change `example.com` to your domain.
 ```
 apt-get install php5-curl
 service apache2 restart
+```
+
+
+### Add Free SSL
+
+Go to your root directory.
+```
+cd .
+```
+
+First we are going to update our server. By running these commands,
+```
+sudo apt-get update
+```
+
+Clone the repo
+```
+sudo git clone https://github.com/letsencrypt/letsencrypt /opt/letsencrypt
+```
+
+Change directories to the Let's Encrypt directory.
+```
+cd /opt/letsencrypt
+```
+
+I'm going to use `example.com` but you should use your own website.
+```
+./letsencrypt-auto --apache -d example.com -d www.example.com
+```
+
+Test it out! Replace `example.com`
+```
+https://www.ssllabs.com/ssltest/analyze.html?d=example.com&latest
+```
+
+Let's Encrypt certificates are valid for 90 days, but itâ€™s recommended that you renew the certificates every 60 days to allow a margin of error. The Let's Encrypt client has a renew command that automatically checks the currently installed certificates and tries to renew them if they are less than 30 days away from the expiration date.
+```
+./letsencrypt-auto renew
+```
+
+Updating Let's Encrypt (Optional)
+```
+cd /opt/letsencrypt
+sudo git pull
 ```

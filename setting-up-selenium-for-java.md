@@ -10,25 +10,25 @@ Download Java development kit.
 #### Set up your development environment
 
 Go to the Eclipse website and select download.
-[Image of Eclipse website](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction1.png)
+![Image of Eclipse website](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction1.png)
 
 Select the Eclipse IDE for Java Developers
-[Image of Eclipse website](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction2.png)
+![Image of Eclipse website](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction2.png)
 
 Download and install Eclipse
-[Image of Eclipse website](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction3.png)
+![Image of Eclipse website](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction3.png)
 
 #### Set up a test project
 
 Create a new project
-[Create new project](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction4.png)
+![Create new project](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction4.png)
 
 Give it a name
-[Give it a name](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction5.png)
+![Give it a name](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction5.png)
 
 Create a test class. Typically this would describe the area you are testing.
-[Create new class](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction6.png)
-[Create new class](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction7.png)
+![Create new class](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction6.png)
+![Create new class](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction7.png)
 
 
 #### Add the Selenium Environment
@@ -36,13 +36,13 @@ Create a test class. Typically this would describe the area you are testing.
 Download the Java library
 
 Open the properties for the Java project
-[Add the Selenium](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/missing-instruction1.png)
+![Add the Selenium](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/missing-instruction1.png)
 
 Open the `Java Build Path`
-[Add the Selenium](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/missing-instruction1.png)
+![Add the Selenium](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/missing-instruction1.png)
 
 Import the `.jar` files from the downloaded zip folder.
-[Add the Selenium](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/selenium-lib-import.gif)
+![Add the Selenium](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/selenium-lib-import.gif)
 
 
 #### Example test
@@ -90,10 +90,12 @@ public class testclass {
 ```
 
 Press run on the top
+
 ![Run](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/instruction8.png)
 
 
 ### Results
+
 ![Run](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/example-test.gif "")
 
 

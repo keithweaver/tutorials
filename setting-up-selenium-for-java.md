@@ -94,7 +94,7 @@ Press run on the top
 
 
 ### Results
-[Run](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/example-test.gif)
+[Run](https://raw.githubusercontent.com/kweaver00/tutorials/master/setting-up-selenium-for-java/example-test.gif "")
 
 
 ### Other

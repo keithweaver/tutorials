@@ -52,7 +52,7 @@ service apache2 restart
 
 Change all instances of `example.com`. If you use `nano` to save and write, press `command` + `o`, type the file name, press `command` + `x`. If you are using `vi` to save press `esc` then type `:wq`.
 
-1. Navigate to the write folder.
+1. Navigate to the right folder.
 ```
 cd ~/../etc/apache2/sites-available/
 ```
